@@ -35,6 +35,7 @@ struct LandmarkList: View {
             }
             .listStyle(PlainListStyle())
             .navigationTitle("Landmarks")
+            .frame(minWidth: 300)
         }
     }
 }
